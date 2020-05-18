@@ -1,9 +1,10 @@
 import java.util.*;
 public class DominoPiling {
   public static void main(String[] args){
-    Scanner s = new Scanner(System.in);
-    int m=s.nextInt();
-    int n=s.nextInt();
+    Scanner sc = new Scanner(System.in);
+    int m=sc.nextInt();
+    int n=sc.nextInt();
     System.out.println((m*n)/2);
+    sc.close();
   }
 }

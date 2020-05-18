@@ -18,5 +18,6 @@ public class NextRound {
      }
    }
    System.out.println(counter);
+   sc.close();
  }
 }

@@ -24,5 +24,6 @@ public class Team {
       }
     }
     System.out.println(counter);
+    sc.close();
   }
 }
