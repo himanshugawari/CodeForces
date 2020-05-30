@@ -1,3 +1,5 @@
+//266B - Queue at the School
+
 import java.util.*;
 
 public class QueueAtTheSchool {
