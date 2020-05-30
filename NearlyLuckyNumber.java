@@ -1,3 +1,4 @@
+//	110A - Nearly Lucky Number
 import java.util.*;
 
 public class NearlyLuckyNumber {
