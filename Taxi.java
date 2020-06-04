@@ -8,8 +8,9 @@ import java.util.Arrays;
 public class Taxi {
   public static void main(String[] args) throws IOException{
     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-    long n=Long.parseLong(br.readLine());
+    Long.parseLong(br.readLine());
     int[] arr=Arrays.stream(br.readLine().split("\\s")).mapToInt(Integer::parseInt).toArray();
+    br.close();
     Arrays.sort(arr);
     int taxi=0;
     int i=arr.length-1;
